@@ -30,7 +30,7 @@ while not game_over:
         snake_food.refresh()
         scoreBoard.add_score()
         snake.add_length()
-    if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
+    if snake.head.xcor() > 295 or snake.head.xcor() < -295 or snake.head.ycor() > 295 or snake.head.ycor() < -295:
         score.game_over()
         game_over = True
 

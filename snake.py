@@ -20,7 +20,6 @@ class Snake:
             new_turtle = Turtle()
             new_turtle.penup()
             new_turtle.shape('square')
-            # new_turtle.shapesize(0.5, 0.5)
             new_turtle.goto(y=0, x=self.spaces[turtle])
             new_turtle.color('white')
             self.snake_segments.append(new_turtle)
